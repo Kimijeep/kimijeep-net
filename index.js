@@ -14,7 +14,7 @@ var fs = require('fs');
 function doRequest(req, res) {
     
     // ファイルを読み込んだら、コールバック関数を実行する。
-    fs.readFile('./lib/index.html', 'utf-8' , doReard );
+    fs.readFile('./lib/wait.html', 'utf-8' , doReard );
     
     // コンテンツを表示する。
     function doReard(err, data) {
