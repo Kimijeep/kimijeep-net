@@ -10,9 +10,9 @@ app.use(function (req, res, next) {
     res.type('text/plain; charset=utf-8');
     next();
 });
-app.get('/', function (req, res, next) {
-    res.send('welcome to pizyumi\'s website. this is home page.\r\n');
-});
+app.get("/",function(req,res){
+    res.sendFile(__dirname+"./lib/wait.html");
+  });
 app.get('/author', function (req, res, next) {
     res.send('author is pizyumi.\r\n');
 });
