@@ -64,13 +64,7 @@ a.btn-gradient {
 
   color: #fff;
   border-radius: 100vh;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(40%, #ff3cac),
-    to(#562b7c)
-  );
+
   background-image: -webkit-linear-gradient(left, #ff3cac 40%, #562b7c 100%);
   background-image: linear-gradient(90deg, #ff3cac 40%, #562b7c 100%);
 }
@@ -88,14 +82,7 @@ a.btn-gradient:after {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#ff3cac),
-    color-stop(#562b7c),
-    to(#2b86c5)
-  );
+
 
   background-image: -webkit-linear-gradient(left, #ff3cac, #562b7c, #2b86c5);
 
