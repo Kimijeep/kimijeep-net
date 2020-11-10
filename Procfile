@@ -1,1 +1,1 @@
-web: node ../kimijeep/app.js
+web: node ../kimijeep-net/bin/www
