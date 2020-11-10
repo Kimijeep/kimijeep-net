@@ -1,1 +1,1 @@
-web: node ../kimijeep-net/bin/www
+web: node ./bin/www
